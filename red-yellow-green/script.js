@@ -8,7 +8,6 @@ function clickEventHandler() {
 let changeButton = document.getElementById('changeButton');
 changeButton.addEventListener("click", clickEventHandler);
 
-
 const squares = document.querySelectorAll('.colorSquare');
 const output = document.getElementById('output');
 // forEach

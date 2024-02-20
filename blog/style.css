@@ -2,18 +2,21 @@
     padding: 0;
     margin: 0;
 }
+
 header{
     background-color: rgba(35,28,26,0.8);
     height: 80px;
     width: 100%;
     position: fixed;
 }
+
 header ul{
     position: absolute;
     right: 5vw;
     top: 0;
     line-height: 80px;
 }
+
 h1{
     position: absolute;
     left: 120px;
@@ -26,17 +29,21 @@ h1{
     text-indent: -9999px;
     color:white;
 }
+
 header li{
     display:inline;
     margin-right: 4vw;
 }
+
 header a{
     color:white;
     text-decoration: none;
 }
+
 header a:hover{
     text-decoration: underline;
 }
+
 .selfintro{
     background-color: antiquewhite;
     color: white;
@@ -51,17 +58,20 @@ header a:hover{
     justify-content: center;
     text-align: center;
 }
+
 .selfintro h2{
     font-size: 60px;
     margin-top: 60px;
     
 }
+
 .selfintro p{
     color: #fef7e6;
     font-size: 18px;
     margin: 25px 0;
     white-space: pre-line;
 }
+
 .selfintro a{
     color: gray;
     text-decoration: none;
@@ -69,6 +79,7 @@ header a:hover{
     padding: 10px 20px;
     border-radius: 5px;
 }
+
 .slogan{
     background-color: #485652;
     color: white;
@@ -79,6 +90,7 @@ header a:hover{
     font-size: 20px;
     line-height: 1.8em;
 }
+
 footer{
     background-color: #000000;
     color: #b7b7b7;
@@ -88,12 +100,15 @@ footer{
     align-items: center;
     font-size: 14px;
 }
+
 .others{
     display: flex;
 }
+
 .others img{
     width: 50%;
 }
+
 .info{
     width: 50%;
     background-color: white;
@@ -102,14 +117,17 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
 .info h2{
     font-size: 40px;
     margin-bottom: 30px;
 }
+
 .info p{
     text-align: center;
     line-height: 2em;
 }
+
 .language{
     display: flex;
     background-color: #ede9db;
@@ -117,23 +135,28 @@ footer{
     align-items: center;
     padding: 100px 180px 80px;
 }
+
 .language div{
     width: 300px;
     text-align: center;
 }
+
 .language image{
     width: 100%;
     height: auto;
     border-radius: 10px;;
 }
+
 .language h3{
     font-size: 20px;
     margin: 20px 0;
 }
+
 .language p{
     font-size: 14px;
     line-height: 1.6em;
 }
+
 .newsletter{
     background-color: #485652;
     color: white;
@@ -142,9 +165,11 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
 .newsletter p{
     margin-bottom: 20px;
 }
+
 .newsletter input, .newsletter button{
     background-color: transparent;
     color: white;
@@ -152,29 +177,36 @@ footer{
     padding: 10px;
     border-radius: 5px;
 }
+
 .newsletter input{
     width: 200px;
     margin-right: 15px;
 }
+
 .newsletter button{
     width: 80px;
     cursor: pointer;
 }
+
 input::placeholder{
     color: #dddddd;
 }
+
 input:focus{
     outline: none;
     border-color: #e0e9a3;
 }
+
 .menu{
     display: none;
 }
+
 /* 響應式設計語法 */
 @media screen and (max-width: 768px){
     header ul{
         display: none;
     }
+    
     header h1{
         left: 50%;
         transform: translateX(-50%);
@@ -222,4 +254,3 @@ input:focus{
         margin-bottom: 30px;
     }
 }
-    
