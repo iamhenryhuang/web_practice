@@ -1,9 +1,7 @@
-// 抓秒針 分針 時針
 const hourHand = document.querySelector('[data-hour-hand]');
 const minuteHand = document.querySelector('[data-minute-hand]');
 const secondHand = document.querySelector('[data-second-hand]');
 
-// 建立函式
 function setClock() {
     var currentDate = new Date();
     var secondsRatio = currentDate.getSeconds() / 60;
