@@ -22,7 +22,7 @@ h1{
     left: 120px;
     top: 0;
     line-height: 80px;
-    background-image: url(image/Henry-designstyle-cartoon-m.png);
+    /*background-image: url(image//4abf56246d3dbbdbea467defe16fcfc4.jpg);*/
     background-repeat: no-repeat;
     background-position: center;
     width: 250px;
@@ -80,7 +80,15 @@ header a:hover{
     border-radius: 5px;
 }
 
-.slogan{
+.sideProject{
+    display: flex;
+    background-color: #dacd9c;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+    
+    
+    /* origin slogan
     background-color: #485652;
     color: white;
     height: 250px;
@@ -88,7 +96,29 @@ header a:hover{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    line-height: 1.8em;
+    line-height: 1.8em; 
+    */
+}
+
+.sideProject div{
+    width: 300px;
+    text-align: center;
+}
+
+.sideProject image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;;
+}
+
+.sideProject h3{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.sideProject p{
+    font-size: 16px;
+    line-height: 1.6em;
 }
 
 footer{
@@ -148,12 +178,12 @@ footer{
 }
 
 .language h3{
-    font-size: 20px;
+    font-size: 25px;
     margin: 20px 0;
 }
 
 .language p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6em;
 }
 
@@ -234,6 +264,16 @@ input:focus{
 
     .others img{
         width: 100%;
+    }
+
+    .sideProject {
+        flex-direction: column;
+        padding: 60px 0;
+        
+    }
+
+    .sideProject div{
+        margin-bottom: 30px;
     }
 
     .info {
